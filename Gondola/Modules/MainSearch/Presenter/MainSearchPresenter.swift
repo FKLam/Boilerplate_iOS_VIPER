@@ -1,6 +1,6 @@
 //
 //  MainSearchPresenter.swift
-//  Gondola
+//  Boilerplate
 //
 //  Created by MARCELO GRACIETTI on 23/01/17.
 //  Copyright © 2017 Cheesecake Labs. All rights reserved.

@@ -2,7 +2,7 @@ platform :ios, '9.0'
 use_frameworks!
 inhibit_all_warnings!
 
-target 'Gondola' do
+target 'Boilerplate' do
     pod 'MBProgressHUD', '~> 1.0.0'
     pod 'UIColor_Hex_Swift', '~> 3.0.1'
     pod 'NextResponderTextField'

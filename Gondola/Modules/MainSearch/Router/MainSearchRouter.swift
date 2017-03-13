@@ -1,6 +1,6 @@
 //
 //  MainSearchRouter.swift
-//  Gondola
+//  Boilerplate
 //
 //  Created by MARCELO GRACIETTI on 23/01/17.
 //  Copyright © 2017 Cheesecake Labs. All rights reserved.
@@ -17,6 +17,6 @@ class MainSearchRouter: MainSearchWireframe {
     weak var view: UIViewController?
     
     // MARK: MainSearchWireframe protocol
-    
+    // Write methods to present other screens here
 
 }
