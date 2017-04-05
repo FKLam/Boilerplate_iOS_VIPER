@@ -16,5 +16,3 @@ iOS Swift boilerplate with Xcode organized with VIPER structure plus useful Exte
 ### Design pattern
 
 This boilerplate has the basic structure for coding with VIPER design pattern (read about it [here](https://www.ckl.io/blog/ios-project-architecture-using-viper/)).
-
-If you're still new to iOS programming you can just delete everything inside `Modules` folder and start using standard Apple MVC.
