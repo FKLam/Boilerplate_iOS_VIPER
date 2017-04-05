@@ -22,7 +22,7 @@
         <!--Convidar Parceiro-->
         <scene sceneID="Z2t-IS-lDo">
             <objects>
-                <viewController storyboardIdentifier="MainSearchViewControllerID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eow-XT-pG2" customClass="MainSearchViewController" customModule="Boilerplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainSearchViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="eow-XT-pG2" customClass="MainSearchViewController" customModule="Boilerplate" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="n8V-bU-fJb"/>
                         <viewControllerLayoutGuide type="bottom" id="bdt-Jz-UJC"/>
