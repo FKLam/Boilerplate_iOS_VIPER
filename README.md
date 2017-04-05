@@ -1,4 +1,4 @@
-# Boilerplate iOS (PUBLIC)
+# VIPER Boilerplate for iOS
 
 iOS Swift boilerplate with Xcode organized with VIPER structure plus useful Extensions and Utils.
 
