@@ -7,8 +7,6 @@
 
 import UIKit
 
-extension UIViewController: ReusableView { }
-
 extension UIViewController {
     
     
@@ -62,6 +60,5 @@ extension UIViewController: UIGestureRecognizerDelegate {
     }
 }
 
-
-
+extension UIViewController: ReusableView { }
 

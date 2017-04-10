@@ -18,8 +18,8 @@ class MainSearchRouter {
     // MARK: Static methods
     
     static func setupModule() -> MainSearchViewController {
-        //TODO: Remove hardcoded storyboard name
-        let viewController = UIStoryboard(name: "MainSearchStoryboard", bundle: nil).instantiateViewController() as! MainSearchViewController
+        
+        let viewController = UIStoryboard(name: MainSearchViewController.storyboardName, bundle: nil).instantiateViewController() as MainSearchViewController
         
         let presenter = MainSearchPresenter()
         let router = MainSearchRouter()

@@ -8,7 +8,11 @@
 
 import UIKit
 
-class MainSearchViewController: BaseViewController, MainSearchView {
+class MainSearchViewController: BaseViewController {
+    
+    // MARK: Static
+    
+    static let storyboardName = "MainSearchStoryboard"
     
     // MARK: Properties
     
@@ -45,7 +49,7 @@ class MainSearchViewController: BaseViewController, MainSearchView {
     // MARK: Private
     
     private func setupView() {
-        
+        // TODO: Setup view here
     }
     
     func moveToNextField(_ view: UIView, nextFieldTag: Int) {
@@ -85,7 +89,14 @@ class MainSearchViewController: BaseViewController, MainSearchView {
         let contentInsets = UIEdgeInsetsMake(60.0, 0.0, 0.0, 0.0)
         scrollView.contentInset = contentInsets
         scrollView.scrollIndicatorInsets = contentInsets
+        
     }
+ 
+}
 
+extension  MainSearchViewController: MainSearchView {
+    
+    //TODO: Implement MainSearchView methods here
     
 }
+

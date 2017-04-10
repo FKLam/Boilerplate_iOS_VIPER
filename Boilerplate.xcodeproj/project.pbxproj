@@ -11,11 +11,6 @@
 		331185DE1E946C8600624CC6 /* ProfileApiDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331185DD1E946C8600624CC6 /* ProfileApiDataManager.swift */; };
 		331185E11E946D2D00624CC6 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331185E01E946D2D00624CC6 /* Product.swift */; };
 		331185F21E9477E600624CC6 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331185F11E9477E600624CC6 /* UIStoryboard.swift */; };
-		331185F91E94AAE400624CC6 /* Contract in Resources */ = {isa = PBXBuildFile; fileRef = 331185F41E94AAE400624CC6 /* Contract */; };
-		331185FA1E94AAE400624CC6 /* Interactor in Resources */ = {isa = PBXBuildFile; fileRef = 331185F51E94AAE400624CC6 /* Interactor */; };
-		331185FB1E94AAE400624CC6 /* Presenter in Resources */ = {isa = PBXBuildFile; fileRef = 331185F61E94AAE400624CC6 /* Presenter */; };
-		331185FC1E94AAE400624CC6 /* Router in Resources */ = {isa = PBXBuildFile; fileRef = 331185F71E94AAE400624CC6 /* Router */; };
-		331185FD1E94AAE400624CC6 /* View in Resources */ = {isa = PBXBuildFile; fileRef = 331185F81E94AAE400624CC6 /* View */; };
 		331F006B1DD34AAE00FF816F /* RoundedPinkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331F006A1DD34AAE00FF816F /* RoundedPinkButton.swift */; };
 		3322885B1DD2667C001042CE /* UIColor+Pallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3322885A1DD2667C001042CE /* UIColor+Pallet.swift */; };
 		3322885D1DD26AAF001042CE /* UIFont+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3322885C1DD26AAF001042CE /* UIFont+Utils.swift */; };
@@ -84,11 +79,6 @@
 		331185DD1E946C8600624CC6 /* ProfileApiDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileApiDataManager.swift; path = Utils/DataManagers/Api/ProfileApiDataManager.swift; sourceTree = "<group>"; };
 		331185E01E946D2D00624CC6 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Product.swift; path = Entities/Product/Product.swift; sourceTree = "<group>"; };
 		331185F11E9477E600624CC6 /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UIStoryboard.swift; path = Utils/Extensions/UIStoryboard.swift; sourceTree = "<group>"; };
-		331185F41E94AAE400624CC6 /* Contract */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Contract; sourceTree = "<group>"; };
-		331185F51E94AAE400624CC6 /* Interactor */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Interactor; sourceTree = "<group>"; };
-		331185F61E94AAE400624CC6 /* Presenter */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Presenter; sourceTree = "<group>"; };
-		331185F71E94AAE400624CC6 /* Router */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Router; sourceTree = "<group>"; };
-		331185F81E94AAE400624CC6 /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
 		331F006A1DD34AAE00FF816F /* RoundedPinkButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundedPinkButton.swift; path = Utils/IBDesignables/RoundedPinkButton.swift; sourceTree = "<group>"; };
 		3322885A1DD2667C001042CE /* UIColor+Pallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Pallet.swift"; path = "Utils/Extensions/UIColor+Pallet.swift"; sourceTree = "<group>"; };
 		3322885C1DD26AAF001042CE /* UIFont+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIFont+Utils.swift"; path = "Utils/Extensions/UIFont+Utils.swift"; sourceTree = "<group>"; };
@@ -161,18 +151,6 @@
 				331185E01E946D2D00624CC6 /* Product.swift */,
 			);
 			name = Product;
-			sourceTree = "<group>";
-		};
-		331185F31E94AAD300624CC6 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-				331185F41E94AAE400624CC6 /* Contract */,
-				331185F51E94AAE400624CC6 /* Interactor */,
-				331185F61E94AAE400624CC6 /* Presenter */,
-				331185F71E94AAE400624CC6 /* Router */,
-				331185F81E94AAE400624CC6 /* View */,
-			);
-			name = "New Group";
 			sourceTree = "<group>";
 		};
 		33136FCD1E06ED500040C156 /* SectionHeaderLabelCell */ = {
@@ -259,7 +237,6 @@
 			children = (
 				3322885C1DD26AAF001042CE /* UIFont+Utils.swift */,
 				3322885A1DD2667C001042CE /* UIColor+Pallet.swift */,
-				33CAF4D21DD75AAB00465298 /* UIViewController.swift */,
 				33CAF4B31DD7340000465298 /* String.swift */,
 				3369D0C71DD934810026BCBF /* UITextField+Border.swift */,
 				33E44BAD1DE6052F006F6379 /* UIImage+Icons.swift */,
@@ -270,6 +247,7 @@
 				3328AE661DF9EE220067C544 /* UITableViewCell.swift */,
 				3323C4991DFB1E8700C134BC /* UIAlertController.swift */,
 				33DF46181E099DCE007CB16E /* Double.swift */,
+				33CAF4D21DD75AAB00465298 /* UIViewController.swift */,
 				331185F11E9477E600624CC6 /* UIStoryboard.swift */,
 			);
 			name = Extensions;
@@ -490,7 +468,6 @@
 		33E031C5C8BB899C8D6BE189 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				331185F31E94AAD300624CC6 /* New Group */,
 				3322887B1DD28241001042CE /* Base */,
 				33BE59931E36CB00000661F6 /* MainSearch */,
 			);
@@ -567,7 +544,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Cheesecake Labs";
 				TargetAttributes = {
 					33B53F1B1DD0ECD500462C66 = {
@@ -614,15 +591,10 @@
 				337EB0761DD39BCB00733F9C /* SanFranciscoText-Light.otf in Resources */,
 				33B2581C1E08679100A006D7 /* SectionHeaderLabelCell.xib in Resources */,
 				33D965911E946693001EDF07 /* Assets.xcassets in Resources */,
-				331185FA1E94AAE400624CC6 /* Interactor in Resources */,
 				33CAF4D91DD75BDD00465298 /* LaunchScreen.storyboard in Resources */,
-				331185FC1E94AAE400624CC6 /* Router in Resources */,
-				331185FD1E94AAE400624CC6 /* View in Resources */,
 				33CAF4D41DD75AF600465298 /* Localizable.strings in Resources */,
 				33EFA4081E0C5394009B2703 /* PlainButtonCell.xib in Resources */,
 				337EB0771DD39BCB00733F9C /* SanFranciscoText-Medium.otf in Resources */,
-				331185F91E94AAE400624CC6 /* Contract in Resources */,
-				331185FB1E94AAE400624CC6 /* Presenter in Resources */,
 				33B53F251DD0ECD500462C66 /* (null) in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -772,6 +744,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -824,6 +797,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
