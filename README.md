@@ -7,11 +7,13 @@ iOS Swift boilerplate with Xcode organized with VIPER structure plus useful Exte
 
 1 - Clone this repo (via git commands or SourceTree)
 
-2 - Run `pod install` on the project folder to download all dependencies with Cocoapods
+2 - Open `Boilerplate.xcodeproj` and rename the project
 
-3 - Open `Boilerplate.xcworkspace`and rename the project
+3 - Run `pod install` on the project folder to download all dependencies with Cocoapods
 
-4 - Analyse the project structure and start coding!
+4 - Open `${Project_Name}.xcworkspace`
+
+5 - Analyse the project structure and start coding!
 
 ### Design pattern
 
