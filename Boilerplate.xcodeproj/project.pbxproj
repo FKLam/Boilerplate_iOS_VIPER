@@ -38,7 +38,7 @@
 		33973E9A1DD5175C0044DBDF /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33973E991DD5175C0044DBDF /* RoundedTextField.swift */; };
 		33B2581B1E08679100A006D7 /* SectionHeaderLabelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B258191E08679100A006D7 /* SectionHeaderLabelCell.swift */; };
 		33B2581C1E08679100A006D7 /* SectionHeaderLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33B2581A1E08679100A006D7 /* SectionHeaderLabelCell.xib */; };
-		33B53F251DD0ECD500462C66 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
+		33B53F251DD0ECD500462C66 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		33BE59961E36CCB4000661F6 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE59951E36CCB4000661F6 /* UserProfile.swift */; };
 		33BE59981E36CD07000661F6 /* ResponseErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE59971E36CD07000661F6 /* ResponseErrors.swift */; };
 		33BE59A91E36CEB2000661F6 /* MainSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE59A81E36CEB2000661F6 /* MainSearchViewController.swift */; };
@@ -57,6 +57,8 @@
 		33E44BAE1DE6052F006F6379 /* UIImage+Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E44BAD1DE6052F006F6379 /* UIImage+Icons.swift */; };
 		33EFA4081E0C5394009B2703 /* PlainButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33EFA4071E0C5394009B2703 /* PlainButtonCell.xib */; };
 		33EFA40A1E0C544C009B2703 /* PlainButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EFA4091E0C544C009B2703 /* PlainButtonCell.swift */; };
+		E1B7B5791EE6EE71006013EE /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B7B5781EE6EE71006013EE /* UICollectionView.swift */; };
+		E1B7B57B1EE6EE8D006013EE /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B7B57A1EE6EE8D006013EE /* UICollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -124,6 +126,8 @@
 		33E44BAD1DE6052F006F6379 /* UIImage+Icons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Icons.swift"; path = "Utils/Extensions/UIImage+Icons.swift"; sourceTree = "<group>"; };
 		33EFA4071E0C5394009B2703 /* PlainButtonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlainButtonCell.xib; path = Utils/UIViews/TableViewCells/PlainButtonCell/PlainButtonCell.xib; sourceTree = "<group>"; };
 		33EFA4091E0C544C009B2703 /* PlainButtonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlainButtonCell.swift; path = Utils/UIViews/TableViewCells/PlainButtonCell/PlainButtonCell.swift; sourceTree = "<group>"; };
+		E1B7B5781EE6EE71006013EE /* UICollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UICollectionView.swift; path = Utils/Extensions/UICollectionView.swift; sourceTree = "<group>"; };
+		E1B7B57A1EE6EE8D006013EE /* UICollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UICollectionViewCell.swift; path = Utils/Extensions/UICollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +245,8 @@
 				33DF46181E099DCE007CB16E /* Double.swift */,
 				33CAF4D21DD75AAB00465298 /* UIViewController.swift */,
 				331185F11E9477E600624CC6 /* UIStoryboard.swift */,
+				E1B7B5781EE6EE71006013EE /* UICollectionView.swift */,
+				E1B7B57A1EE6EE8D006013EE /* UICollectionViewCell.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -562,7 +568,7 @@
 				33CAF4D41DD75AF600465298 /* Localizable.strings in Resources */,
 				33EFA4081E0C5394009B2703 /* PlainButtonCell.xib in Resources */,
 				337EB0771DD39BCB00733F9C /* SanFranciscoText-Medium.otf in Resources */,
-				33B53F251DD0ECD500462C66 /* BuildFile in Resources */,
+				33B53F251DD0ECD500462C66 /* (null) in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +603,7 @@
 				331185F21E9477E600624CC6 /* UIStoryboard.swift in Sources */,
 				333EAC201DE758B5001E573E /* UIView.swift in Sources */,
 				332288811DD282D5001042CE /* BaseContract.swift in Sources */,
+				E1B7B57B1EE6EE8D006013EE /* UICollectionViewCell.swift in Sources */,
 				332F1C891DD33A790080B38D /* RootRouter.swift in Sources */,
 				33DF46191E099DCE007CB16E /* Double.swift in Sources */,
 				335E2C3A1DF86472007D17D9 /* DataResponse.swift in Sources */,
@@ -628,6 +635,7 @@
 				331F006B1DD34AAE00FF816F /* RoundedPinkButton.swift in Sources */,
 				33BE59A91E36CEB2000661F6 /* MainSearchViewController.swift in Sources */,
 				3361335E1DEF11CD00D3E05B /* ValidatorHelper.swift in Sources */,
+				E1B7B5791EE6EE71006013EE /* UICollectionView.swift in Sources */,
 				3323C4A41DFB7A0D00C134BC /* SessionHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -811,7 +819,47 @@
 					"\"UIKit\"",
 					"-lstdc++",
 				);
-				"OTHER_LDFLAGS[arch=*]" = "$(inherited) -ObjC -l\"c++\" -l\"z\" -framework \"Alamofire\" -framework \"AlamofireObjectMapper\" -framework \"Crashlytics\" -framework \"Fabric\" -framework \"KeychainSwift\" -framework \"Localize_Swift\" -framework \"MBProgressHUD\" -framework \"NextResponderTextField\" -framework \"ObjectMapper\" -framework \"ObjectMapper_Realm\" -framework \"ReachabilitySwift\" -framework \"Realm\" -framework \"RealmSwift\" -framework \"Security\" -framework \"SystemConfiguration\" -framework \"UIColor_Hex_Swift\" -framework \"UIKit\" -lstdc++";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AlamofireObjectMapper\"",
+					"-framework",
+					"\"Crashlytics\"",
+					"-framework",
+					"\"Fabric\"",
+					"-framework",
+					"\"KeychainSwift\"",
+					"-framework",
+					"\"Localize_Swift\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"NextResponderTextField\"",
+					"-framework",
+					"\"ObjectMapper\"",
+					"-framework",
+					"\"ObjectMapper_Realm\"",
+					"-framework",
+					"\"ReachabilitySwift\"",
+					"-framework",
+					"\"Realm\"",
+					"-framework",
+					"\"RealmSwift\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIColor_Hex_Swift\"",
+					"-framework",
+					"\"UIKit\"",
+					"-lstdc++",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ckl.io.training.Boilerplate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
