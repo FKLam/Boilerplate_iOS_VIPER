@@ -32,10 +32,10 @@ class MainSearchViewController: BaseViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        setupKeyboardNotification()
+        setupKeyboardNotifications(with: scrollView)
     }
     
-    override func viewWillDisappear(_ animated: Bool) {
+    override func viewWillDisappear(_ animated: Bool) { 
         super.viewDidDisappear(animated)
         removeKeyboardNotification()
     }
@@ -60,36 +60,6 @@ class MainSearchViewController: BaseViewController {
             view.resignFirstResponder()
             onDoSomethinClicked()
         }
-    }
-    
-    private func setupKeyboardNotification() {
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
-        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillBeHidden), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
-    }
-    
-    func keyboardWillShow(notification: NSNotification) {
-        guard let info = notification.userInfo,
-            let keyboardSize = (info[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue.size else { return }
-        let contentInsets = UIEdgeInsetsMake(0.0, 0.0, keyboardSize.height + 15.0, 0.0)
-        
-        scrollView.contentInset = contentInsets
-        scrollView.scrollIndicatorInsets = contentInsets
-        
-        var aRect : CGRect = self.view.frame
-        aRect.size.height -= keyboardSize.height
-        guard let activeFieldPresent = findActiveTextField(view.subviews) else { return }
-        
-        if (!aRect.contains(activeFieldPresent.frame.origin))
-        {
-            self.scrollView.scrollRectToVisible(activeFieldPresent.frame, animated: true)
-        }
-    }
-    
-    func keyboardWillBeHidden(notification: NSNotification) {
-        let contentInsets = UIEdgeInsetsMake(60.0, 0.0, 0.0, 0.0)
-        scrollView.contentInset = contentInsets
-        scrollView.scrollIndicatorInsets = contentInsets
-        
     }
  
 }
