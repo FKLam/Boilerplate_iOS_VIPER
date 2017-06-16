@@ -60,6 +60,7 @@
 		E1164E451EF35D5E00B9B565 /* PlainButtonCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1164E441EF35D5E00B9B565 /* PlainButtonCellDelegate.swift */; };
 		E1164E471EF35D6800B9B565 /* ProfileApiDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1164E461EF35D6800B9B565 /* ProfileApiDataManager.swift */; };
 		E1164E491EF35D6E00B9B565 /* ProfileLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1164E481EF35D6E00B9B565 /* ProfileLocalDataManager.swift */; };
+		E1164E4B1EF35DCF00B9B565 /* StoryboardLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1164E4A1EF35DCF00B9B565 /* StoryboardLoadable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -132,6 +133,7 @@
 		E1164E441EF35D5E00B9B565 /* PlainButtonCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlainButtonCellDelegate.swift; sourceTree = "<group>"; };
 		E1164E461EF35D6800B9B565 /* ProfileApiDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileApiDataManager.swift; sourceTree = "<group>"; };
 		E1164E481EF35D6E00B9B565 /* ProfileLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileLocalDataManager.swift; sourceTree = "<group>"; };
+		E1164E4A1EF35DCF00B9B565 /* StoryboardLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardLoadable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -309,6 +311,7 @@
 			children = (
 				3328AE5E1DF9DB1D0067C544 /* NibLoadableView.swift */,
 				3328AE641DF9ED590067C544 /* ReusableView.swift */,
+				E1164E4A1EF35DCF00B9B565 /* StoryboardLoadable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -682,6 +685,7 @@
 				E1164E3A1EF35D4D00B9B565 /* SessionHelper.swift in Sources */,
 				3328AE651DF9ED590067C544 /* ReusableView.swift in Sources */,
 				E1164E1F1EF35D0400B9B565 /* Double.swift in Sources */,
+				E1164E4B1EF35DCF00B9B565 /* StoryboardLoadable.swift in Sources */,
 				E1164E2C1EF35D0400B9B565 /* UIView.swift in Sources */,
 				E1164E371EF35D3F00B9B565 /* Constants.swift in Sources */,
 				E1164E421EF35D5700B9B565 /* SimpleCircle.swift in Sources */,
