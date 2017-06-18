@@ -8,11 +8,7 @@
 
 import UIKit
 
-class MainSearchViewController: BaseViewController {
-    
-    // MARK: Static
-    
-    static let storyboardName = "MainSearchStoryboard"
+class MainSearchViewController: BaseViewController, StoryboardLoadable {
     
     // MARK: Properties
     

@@ -17,7 +17,7 @@
 		337EB0761DD39BCB00733F9C /* SanFranciscoText-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 337EB0731DD39BCB00733F9C /* SanFranciscoText-Light.otf */; };
 		337EB0771DD39BCB00733F9C /* SanFranciscoText-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 337EB0741DD39BCB00733F9C /* SanFranciscoText-Medium.otf */; };
 		337EB0781DD39BCB00733F9C /* SanFranciscoText-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 337EB0751DD39BCB00733F9C /* SanFranciscoText-Regular.otf */; };
-		33B53F251DD0ECD500462C66 /* (null) in Resources */ = {isa = PBXBuildFile; };
+		33B53F251DD0ECD500462C66 /* BuildFile in Resources */ = {isa = PBXBuildFile; };
 		33BE59961E36CCB4000661F6 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE59951E36CCB4000661F6 /* UserProfile.swift */; };
 		33BE59981E36CD07000661F6 /* ResponseErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE59971E36CD07000661F6 /* ResponseErrors.swift */; };
 		33BE59A91E36CEB2000661F6 /* MainSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE59A81E36CEB2000661F6 /* MainSearchViewController.swift */; };
@@ -25,11 +25,10 @@
 		33BE59AD1E36CEC4000661F6 /* MainSearchContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE59AC1E36CEC4000661F6 /* MainSearchContract.swift */; };
 		33BE59AF1E36CECC000661F6 /* MainSearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE59AE1E36CECC000661F6 /* MainSearchInteractor.swift */; };
 		33BE59B11E36CED5000661F6 /* MainSearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33BE59B01E36CED5000661F6 /* MainSearchRouter.swift */; };
-		33BE59B31E36CF34000661F6 /* MainSearchStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BE59B21E36CF34000661F6 /* MainSearchStoryboard.storyboard */; };
+		33BE59B31E36CF34000661F6 /* MainSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33BE59B21E36CF34000661F6 /* MainSearch.storyboard */; };
 		33CAF4D41DD75AF600465298 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33CAF4D61DD75AF600465298 /* Localizable.strings */; };
 		33CAF4D91DD75BDD00465298 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33CAF4D81DD75BDD00465298 /* LaunchScreen.storyboard */; };
 		33D965911E946693001EDF07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33D965901E946693001EDF07 /* Assets.xcassets */; };
-		7644EAF4BEE34F615202ACB5 /* Pods_Boilerplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11BF3647042121279E963D8C /* Pods_Boilerplate.framework */; };
 		E1164E1E1EF35D0400B9B565 /* DataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1164E0E1EF35D0400B9B565 /* DataResponse.swift */; };
 		E1164E1F1EF35D0400B9B565 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1164E0F1EF35D0400B9B565 /* Double.swift */; };
 		E1164E201EF35D0400B9B565 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1164E101EF35D0400B9B565 /* Results.swift */; };
@@ -77,8 +76,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		11BF3647042121279E963D8C /* Pods_Boilerplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Boilerplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F7D0492559DDA47B77BBC4F /* Pods-Boilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boilerplate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Boilerplate/Pods-Boilerplate.debug.xcconfig"; sourceTree = "<group>"; };
 		331185E01E946D2D00624CC6 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Product.swift; path = Entities/Product/Product.swift; sourceTree = "<group>"; };
 		332288801DD282D5001042CE /* BaseContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseContract.swift; path = Base/Contract/BaseContract.swift; sourceTree = "<group>"; };
 		3322888E1DD283CF001042CE /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaseViewController.swift; path = Base/View/BaseViewController.swift; sourceTree = "<group>"; };
@@ -98,11 +95,10 @@
 		33BE59AC1E36CEC4000661F6 /* MainSearchContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainSearchContract.swift; path = MainSearch/Contract/MainSearchContract.swift; sourceTree = "<group>"; };
 		33BE59AE1E36CECC000661F6 /* MainSearchInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainSearchInteractor.swift; path = MainSearch/Interactor/MainSearchInteractor.swift; sourceTree = "<group>"; };
 		33BE59B01E36CED5000661F6 /* MainSearchRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainSearchRouter.swift; path = MainSearch/Router/MainSearchRouter.swift; sourceTree = "<group>"; };
-		33BE59B21E36CF34000661F6 /* MainSearchStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainSearchStoryboard.storyboard; path = MainSearch/View/MainSearchStoryboard.storyboard; sourceTree = "<group>"; };
+		33BE59B21E36CF34000661F6 /* MainSearch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainSearch.storyboard; path = MainSearch/View/MainSearch.storyboard; sourceTree = "<group>"; };
 		33CAF4D71DD75B1600465298 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		33CAF4D81DD75BDD00465298 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Application/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33D965901E946693001EDF07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Assets/Images/Assets.xcassets; sourceTree = "<group>"; };
-		67DB6209477D882A5E9585F6 /* Pods-Boilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boilerplate.release.xcconfig"; path = "Pods/Target Support Files/Pods-Boilerplate/Pods-Boilerplate.release.xcconfig"; sourceTree = "<group>"; };
 		E1164E0E1EF35D0400B9B565 /* DataResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataResponse.swift; sourceTree = "<group>"; };
 		E1164E0F1EF35D0400B9B565 /* Double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		E1164E101EF35D0400B9B565 /* Results.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
@@ -141,7 +137,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7644EAF4BEE34F615202ACB5 /* Pods_Boilerplate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,8 +344,6 @@
 			children = (
 				33B53F1E1DD0ECD500462C66 /* Boilerplate */,
 				33B53F1D1DD0ECD500462C66 /* Products */,
-				3CDB46694616880C9A29B6B4 /* Pods */,
-				917EC0102E59DF229318D530 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -441,7 +434,7 @@
 		33BE59A71E36CE90000661F6 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				33BE59B21E36CF34000661F6 /* MainSearchStoryboard.storyboard */,
+				33BE59B21E36CF34000661F6 /* MainSearch.storyboard */,
 				33BE59A81E36CEB2000661F6 /* MainSearchViewController.swift */,
 			);
 			name = View;
@@ -499,23 +492,6 @@
 			path = PlainButtonCell;
 			sourceTree = "<group>";
 		};
-		3CDB46694616880C9A29B6B4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2F7D0492559DDA47B77BBC4F /* Pods-Boilerplate.debug.xcconfig */,
-				67DB6209477D882A5E9585F6 /* Pods-Boilerplate.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		917EC0102E59DF229318D530 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				11BF3647042121279E963D8C /* Pods_Boilerplate.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -523,14 +499,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33B53F441DD0ECD600462C66 /* Build configuration list for PBXNativeTarget "Boilerplate" */;
 			buildPhases = (
-				600516CC92C61F6DDA52F6E2 /* [CP] Check Pods Manifest.lock */,
 				33B53F181DD0ECD500462C66 /* Sources */,
 				33B53F191DD0ECD500462C66 /* Frameworks */,
 				33B53F1A1DD0ECD500462C66 /* Resources */,
 				330525391DD66015001BE57F /* ShellScript */,
 				33791C8F1E11C313003CAC9D /* Embed Frameworks */,
-				3611A97E4DF45F92C9F5CE39 /* [CP] Embed Pods Frameworks */,
-				3F58B8B3F99497182E16D000 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -553,7 +526,7 @@
 				TargetAttributes = {
 					33B53F1B1DD0ECD500462C66 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = C7KQ8QZ5XP;
+						DevelopmentTeam = M9EVB8Q3VT;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -590,7 +563,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33BE59B31E36CF34000661F6 /* MainSearchStoryboard.storyboard in Resources */,
+				33BE59B31E36CF34000661F6 /* MainSearch.storyboard in Resources */,
 				337EB0781DD39BCB00733F9C /* SanFranciscoText-Regular.otf in Resources */,
 				337EB0761DD39BCB00733F9C /* SanFranciscoText-Light.otf in Resources */,
 				33D965911E946693001EDF07 /* Assets.xcassets in Resources */,
@@ -598,7 +571,7 @@
 				33CAF4D41DD75AF600465298 /* Localizable.strings in Resources */,
 				E1164E351EF35D3300B9B565 /* PlainButtonCell.xib in Resources */,
 				337EB0771DD39BCB00733F9C /* SanFranciscoText-Medium.otf in Resources */,
-				33B53F251DD0ECD500462C66 /* (null) in Resources */,
+				33B53F251DD0ECD500462C66 /* BuildFile in Resources */,
 				E1164E311EF35D2300B9B565 /* SectionHeaderLabelCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -618,51 +591,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "";
-		};
-		3611A97E4DF45F92C9F5CE39 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Boilerplate/Pods-Boilerplate-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3F58B8B3F99497182E16D000 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Boilerplate/Pods-Boilerplate-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		600516CC92C61F6DDA52F6E2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -833,12 +761,11 @@
 		};
 		33B53F451DD0ECD600462C66 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F7D0492559DDA47B77BBC4F /* Pods-Boilerplate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = C7KQ8QZ5XP;
+				DEVELOPMENT_TEAM = M9EVB8Q3VT;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -897,48 +824,8 @@
 					"\"UIKit\"",
 					"-lstdc++",
 				);
-				"OTHER_LDFLAGS[arch=*]" = (
-					"$(inherited)",
-					"-ObjC",
-					"-l\"c++\"",
-					"-l\"z\"",
-					"-framework",
-					"\"Alamofire\"",
-					"-framework",
-					"\"AlamofireObjectMapper\"",
-					"-framework",
-					"\"Crashlytics\"",
-					"-framework",
-					"\"Fabric\"",
-					"-framework",
-					"\"KeychainSwift\"",
-					"-framework",
-					"\"Localize_Swift\"",
-					"-framework",
-					"\"MBProgressHUD\"",
-					"-framework",
-					"\"NextResponderTextField\"",
-					"-framework",
-					"\"ObjectMapper\"",
-					"-framework",
-					"\"ObjectMapper_Realm\"",
-					"-framework",
-					"\"ReachabilitySwift\"",
-					"-framework",
-					"\"Realm\"",
-					"-framework",
-					"\"RealmSwift\"",
-					"-framework",
-					"\"Security\"",
-					"-framework",
-					"\"SystemConfiguration\"",
-					"-framework",
-					"\"UIColor_Hex_Swift\"",
-					"-framework",
-					"\"UIKit\"",
-					"-lstdc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = ckl.io.training.Boilerplate;
+				"OTHER_LDFLAGS[arch=*]" = "$(inherited) -ObjC -l\"c++\" -l\"z\" -framework \"Alamofire\" -framework \"AlamofireObjectMapper\" -framework \"Crashlytics\" -framework \"Fabric\" -framework \"KeychainSwift\" -framework \"Localize_Swift\" -framework \"MBProgressHUD\" -framework \"NextResponderTextField\" -framework \"ObjectMapper\" -framework \"ObjectMapper_Realm\" -framework \"ReachabilitySwift\" -framework \"Realm\" -framework \"RealmSwift\" -framework \"Security\" -framework \"SystemConfiguration\" -framework \"UIColor_Hex_Swift\" -framework \"UIKit\" -lstdc++";
+				PRODUCT_BUNDLE_IDENTIFIER = ckl.io.training.Boilerplate1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -951,12 +838,11 @@
 		};
 		33B53F461DD0ECD600462C66 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67DB6209477D882A5E9585F6 /* Pods-Boilerplate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = C7KQ8QZ5XP;
+				DEVELOPMENT_TEAM = M9EVB8Q3VT;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1015,7 +901,7 @@
 					"\"UIKit\"",
 					"-lstdc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ckl.io.training.Boilerplate;
+				PRODUCT_BUNDLE_IDENTIFIER = ckl.io.training.Boilerplate1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
