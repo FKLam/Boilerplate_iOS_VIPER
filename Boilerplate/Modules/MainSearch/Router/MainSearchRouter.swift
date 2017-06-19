@@ -19,7 +19,7 @@ class MainSearchRouter {
     
     static func setupModule() -> MainSearchViewController {
         
-        let viewController = UIStoryboard(name: MainSearchViewController.storyboardName, bundle: nil).instantiateViewController() as MainSearchViewController
+        let viewController = UIStoryboard.loadViewController() as MainSearchViewController
         
         let presenter = MainSearchPresenter()
         let router = MainSearchRouter()
