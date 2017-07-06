@@ -9,8 +9,8 @@ import RealmSwift
 
 extension Results {
     
-    func toArray () -> [Object] {
-        var array = [Object]()
+    func toArray() -> [T] {
+        var array = [T]()
         for result in self {
             array.append(result)
         }
